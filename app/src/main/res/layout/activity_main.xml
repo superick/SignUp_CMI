@@ -5,6 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#ffff00"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     android:gravity="top"
     tools:context=".MainActivity">
 <LinearLayout
@@ -25,6 +28,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="아이디"/>
     <EditText
         android:layout_width="match_parent"
@@ -35,6 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="비밀번호"/>
     <EditText
         android:layout_width="match_parent"
@@ -45,6 +50,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="닉네임"/>
     <EditText
         android:layout_width="match_parent"
@@ -62,16 +68,19 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:text="남성"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:text="여성" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:text="공개안함"/>
 
     </RadioGroup>
